@@ -43,7 +43,7 @@
                     <td><?php echo $melding['capaciteit'];?></td>
                     <td><?php if($melding['prioriteit'] == 0) {
                         echo "Nee";
-                    }else if ($melding['prioriteit'] = 1) {
+                    }else if($melding['prioriteit'] = 1) {
                         echo "Ja";
                     }
                     
