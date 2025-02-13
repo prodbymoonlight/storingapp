@@ -24,7 +24,7 @@
                 <label for="type">Type</label>
                 <select name="type" id="type">
                     <option value="ongeselecteerd">-selecteer een optie-</option>
-                    <option value="1">1</option>
+                    <option value="Achtbaan">Achtbaan</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -35,10 +35,18 @@
                 <input type="number" min="0" name="capaciteit" id="capaciteit" class="form-input">
             </div>
             <div class="form-group">
+                <label for="prioriteit">Prio</label>
+                <input type="checkbox" name="prioriteit" id="prioriteit">
+                <label for="prioriteit">Melding met prioriteit</label>
+            </div>
+            <div class="form-group">
                 <label for="melder">Naam melder:</label>
                 <input type="text" name="melder" id="melder" class="form-input">
             </div>
-
+            <div class="form-group">
+                <label for="overig">Overige info: </label>
+                <textarea name="overig" id="overig" class="form-input" rows="4"></textarea>
+            </div>
             <input type="submit" value="Verstuur melding">
 
         </form>
