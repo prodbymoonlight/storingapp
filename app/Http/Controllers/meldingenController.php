@@ -8,6 +8,7 @@ $prioriteit = $_POST['prioriteit'];
 $melder = $_POST['melder'];
 $overig = $_POST['overig'];
 
+// Error handling 
 if(empty($attractie)) {
     $errors[] = "Vul de attractie-naam in.";
 }
